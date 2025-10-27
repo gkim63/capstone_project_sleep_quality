@@ -67,9 +67,11 @@ This project analyzes the impact of occupational and lifestyle factors on sleep 
   - Make sure your Python interpreter is properly set.
 3. Install dependencies
   - Run the following command in the terminal to install required libraries:
-    ```pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 4. Run the notebook
    - Use VS Code’s Jupyter extension to run cells interactively, or Launch Jupyter Lab from the terminal:
-     '''jupyter lab
+     '''bash
+     jupyter lab
 
 
