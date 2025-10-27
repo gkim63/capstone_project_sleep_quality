@@ -71,7 +71,7 @@ This project analyzes the impact of occupational and lifestyle factors on sleep 
     pip install -r requirements.txt
 4. Run the notebook
    - Use VS Code’s Jupyter extension to run cells interactively, or Launch Jupyter Lab from the terminal:
-     '''bash
+     ```bash
      jupyter lab
 
 
