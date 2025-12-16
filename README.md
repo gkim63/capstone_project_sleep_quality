@@ -34,6 +34,9 @@ This project analyzes the impact of occupational and lifestyle factors on sleep 
 | **B: Stress has the strongest correlation** | Pearson Correlation | Stress r = -0.91, Physical Activity r = 0.15, Sleep Duration r = 0.88 | Stress has the strongest absolute correlation; reject null hypothesis. |
 | **C: Predictive model sufficiency** | Multiple Linear Regression | R² = 0.8856, MSE = 0.1470 | Model shows high predictive accuracy; reject null hypothesis. |
 
+### B. Scatter Plots
+![Scatter Plots](./scatter_plots.png)
+
 ### Practical Significance
 - Sleep quality varies by occupation; work-related stress can negatively impact sleep.
 - Stress has the strongest negative correlation with sleep quality; managing stress can significantly improve sleep.
