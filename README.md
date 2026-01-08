@@ -19,8 +19,8 @@ The objective was not to evaluate individual employees, but to identify occupati
 | **Statistical Test** | One-way Analysis of Variance (ANOVA)                                                                                                     |
 | **Key Metrics**      | F = **41.65**, p < **0.001**                                                                                                             |
 | **Result**           | **Nurses** exhibit the lowest sleep quality, while **engineers** show the highest sleep quality among all occupational                   |
-| **Interpretation**   | - High-stress, shift-based roles such as nursing are associated with poorer sleep outcomes
-                         - Roles with more stable schedules and lower physical or emotional strain, such as engineering, demonstrate better sleep quality
+| **Interpretation**   | - High-stress, shift-based roles such as nursing are associated with poorer sleep outcomes<br>
+                         - Roles with more stable schedules and lower physical or emotional strain, such as engineering, demonstrate better sleep quality<br>
                          - These findings indicate that sleep-related interventions should be prioritized by occupation, rather than applied uniformly across the organization |
 ## Question 2
 ![Scatter Plots](./scatter_plots.png)
@@ -30,8 +30,8 @@ The objective was not to evaluate individual employees, but to identify occupati
 | **Statistical Test** | Pearson Correlation                                                               |
 | **Key Metrics**      | Stress r = **-0.91**, Sleep Duration r = **0.88**, Physical Activity r = **0.15** |
 | **Result**           | Stress shows the strongest absolute correlation                                   
-| **Interpretation**   | - Longer sleep duration generally corresponds to better sleep quality, reinforcing the importance of adequate rest
-                         - Physical activity shows a minimal impact compared to stress and sleep duration, suggesting targeted wellness programs should prioritize stress management and sleep hygiene over general activity interventions
+| **Interpretation**   | - Longer sleep duration generally corresponds to better sleep quality, reinforcing the importance of adequate rest<br>
+                         - Physical activity shows a minimal impact compared to stress and sleep duration, suggesting targeted wellness programs should prioritize stress management and sleep hygiene over general activity interventions<br>
                          - These insights support occupation-specific wellness initiatives to improve overall employee well-being |
 
 ## Question 3
@@ -41,8 +41,8 @@ The objective was not to evaluate individual employees, but to identify occupati
 | **Statistical Test** | Multiple Linear Regression                                                 |
 | **Key Metrics**      | R² = **0.886**, MSE = **0.147**                                            |
 | **Result**           | Model demonstrates high predictive performance                             |
-| **Interpretation**   | - Stress, sleep duration, and physical activity together explain a large portion of the variance in sleep quality (~88.6%), confirming that employee lifestyle factors are strong predictors of sleep outcomes
-                         - Among these, stress level is the most influential factor, with higher stress strongly reducing predicted sleep quality
+| **Interpretation**   | - Stress, sleep duration, and physical activity together explain a large portion of the variance in sleep quality (~88.6%), confirming that employee lifestyle factors are strong predictors of sleep outcomes<br>
+                         - Among these, stress level is the most influential factor, with higher stress strongly reducing predicted sleep quality<br>
                          - Overall, this predictive modeling approach demonstrates how quantitative analysis can be translated into actionable HR strategies, moving beyond descriptive statistics toward data-driven workforce well-being management|
 
 
