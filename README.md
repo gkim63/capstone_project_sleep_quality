@@ -1,7 +1,5 @@
 # capstone_project_sleep_quality
-Analysis of the Impact of Occupational and Lifestyle Factors on Sleep Quality
-
-This project analyzes the impact of occupational and lifestyle factors on sleep quality using the **Sleep_Disorder_Diagnosis_Dataset** from Kaggle.
+This project was conducted as part of an internal HR analytics initiative at a mid-sized organization to better understand how occupational and lifestyle factors affect employee sleep quality and overall well-being. Using a publicly available Kaggle dataset, the analysis focuses on identifying key drivers of poor sleep quality and generating actionable insights to support data-driven employee wellness strategies.
 
 ## Dataset
 - Source: [Kaggle - Sleep Disorder Diagnosis Dataset](https://www.kaggle.com/datasets/varishabatool/disorder)  
@@ -46,6 +44,9 @@ This project analyzes the impact of occupational and lifestyle factors on sleep 
 - **Box Plot:** Compared distribution of sleep quality by occupation.
 - **Scatter Plot with Jitter:** Showed relationships between stress, sleep duration, physical activity, and sleep quality.
 - Visualizations helped identify key factors and support conclusions.
+
+## ⭐ Actionable Insights
+- The analysis delivers actionable insights to support employee well-being, including stress management initiatives, sleep health education, and targeted wellness interventions for high-stress occupations identified in the data.
 
 ## Recommended Actions
 1. **Implement Stress Management Programs**
