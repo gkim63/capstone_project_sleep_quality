@@ -1,81 +1,77 @@
 # capstone_project_sleep_quality
-This project was conducted as part of an internal HR analytics initiative at a mid-sized organization to better understand how occupational and lifestyle factors affect employee sleep quality and overall well-being. Using a publicly available Kaggle dataset, the analysis focuses on identifying key drivers of poor sleep quality and generating actionable insights to support data-driven employee wellness strategies.
 
-## Dataset
-- Source: [Kaggle - Sleep Disorder Diagnosis Dataset](https://www.kaggle.com/datasets/varishabatool/disorder)  
-- Format: CSV  
-- Contents: Occupation, sleep duration, sleep quality, physical activity, stress level  
-- Notes: No personally identifiable information included.  
+### This project was conducted to support organizational decision-making and employee well-being initiatives, rather than focusing on individual-level outcomes.
 
-## Data Processing
-1. **Data Extraction**
-   - Loaded the CSV file into a Jupyter Notebook using Pandas.
-2. **Data Preparation**
-   - Selected relevant variables: occupation, sleep duration, sleep quality, physical activity, and stress level.
-   - Removed occupations with fewer than 10 samples.
-   - Removed outliers in sleep quality using the IQR method.
-   - No missing values in key variables; no further cleaning required.
+## Project Context
+This project was conducted as part of an internal HR analytics initiative at Star Health Systems, a mid-sized organization focused on employee well-being and workforce sustainability.
 
-## Tools Used
-- **Pandas**: Data cleansing and processing
-- **Jupyter Notebook / VS Code**: Analysis and visualization
-- **Matplotlib / Seaborn**: Visualizations
-- **Scikit-learn**: Regression modeling
+The objective was not to evaluate individual employees, but to identify occupational that are systematically exposed to poor sleep quality and elevated stress levels, and to provide data-driven recommendations that can support organization-wide wellness strategies.
 
-## Data Analysis Results
+## Business Objective
+- Identify occupational cohorts at higher risk of poor sleep quality
+- Quantify the impact of lifestyle and stress-related factors on sleep outcomes
+- Provide actionable, organization-level recommendations to improve employee well-being
 
-### Statistical Significance
-
-| Hypothesis | Test | Metrics | Conclusion |
-|------------|------|---------|------------|
-| **A: Sleep quality differs by occupation** | One-way ANOVA | F = 41.65, p = 0.00 | Reject null hypothesis. Nurses and salespeople had the lowest median sleep quality (6), engineers, lawyers, and accountants the highest (8-9). |
-| **B: Stress has the strongest correlation** | Pearson Correlation | Stress r = -0.91, Physical Activity r = 0.15, Sleep Duration r = 0.88 | Stress has the strongest absolute correlation; reject null hypothesis. |
-| **C: Predictive model sufficiency** | Multiple Linear Regression | R² = 0.8856, MSE = 0.1470 | Model shows high predictive accuracy; reject null hypothesis. |
-
-### B. Scatter Plots
+## Question 1
+| Category             | Details                                                                                                                                  |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question 1**       | Which occupations have the highest and lowest average sleep quality?                                                                     |
+| **Statistical Test** | One-way Analysis of Variance (ANOVA)                                                                                                     |
+| **Key Metrics**      | F = **41.65**, p < **0.001**                                                                                                             |
+| **Result**           | **Nurses** exhibit the lowest sleep quality, while **engineers** show the highest sleep quality among all occupational                   |
+| **Interpretation**   | - High-stress, shift-based roles such as nursing are associated with poorer sleep outcomes
+                         - Roles with more stable schedules and lower physical or emotional strain, such as engineering, demonstrate better sleep quality
+                         - These findings indicate that sleep-related interventions should be prioritized by occupation, rather than applied uniformly across the organization |
+## Question 2
 ![Scatter Plots](./scatter_plots.png)
+| Category             | Details                                                                           |
+| -------------------- | --------------------------------------------------------------------------------- |
+| **Question 2**       | Which lifestyle factor has the strongest influence on sleep quality?              |
+| **Statistical Test** | Pearson Correlation                                                               |
+| **Key Metrics**      | Stress r = **-0.91**, Sleep Duration r = **0.88**, Physical Activity r = **0.15** |
+| **Result**           | Stress shows the strongest absolute correlation                                   
+| **Interpretation**   | - Longer sleep duration generally corresponds to better sleep quality, reinforcing the importance of adequate rest
+                         - Physical activity shows a minimal impact compared to stress and sleep duration, suggesting targeted wellness programs should prioritize stress management and sleep hygiene over general activity interventions
+                         - These insights support occupation-specific wellness initiatives to improve overall employee well-being |
 
-### Practical Significance
-- Sleep quality varies by occupation; work-related stress can negatively impact sleep.
-- Stress has the strongest negative correlation with sleep quality; managing stress can significantly improve sleep.
-- Predictive model is accurate; lifestyle factors can be used to forecast sleep quality and recommend improvements.
+## Question 3
+| Category             | Details                                                                    |
+| -------------------- | -------------------------------------------------------------------------- |
+| **Question 3**       | Which employee are predicted to be at risk of poor sleep quality?          |
+| **Statistical Test** | Multiple Linear Regression                                                 |
+| **Key Metrics**      | R² = **0.886**, MSE = **0.147**                                            |
+| **Result**           | Model demonstrates high predictive performance                             |
+| **Interpretation**   | - Stress, sleep duration, and physical activity together explain a large portion of the variance in sleep quality (~88.6%), confirming that employee lifestyle factors are strong predictors of sleep outcomes
+                         - Among these, stress level is the most influential factor, with higher stress strongly reducing predicted sleep quality
+                         - Overall, this predictive modeling approach demonstrates how quantitative analysis can be translated into actionable HR strategies, moving beyond descriptive statistics toward data-driven workforce well-being management|
 
-### Visualizations for Storytelling
-- **Box Plot:** Compared distribution of sleep quality by occupation.
-- **Scatter Plot with Jitter:** Showed relationships between stress, sleep duration, physical activity, and sleep quality.
-- Visualizations helped identify key factors and support conclusions.
 
 ## ⭐ Actionable Insights
 - The analysis delivers actionable insights to support employee well-being, including stress management initiatives, sleep health education, and targeted wellness interventions for high-stress occupations identified in the data.
 
 ## Recommended Actions
-1. **Implement Stress Management Programs**
-   - Tailored programs for high-stress occupations (e.g., nurses, salespeople) such as yoga, counseling, or relaxation techniques.
-2. **Sleep Education and Health Campaigns**
-   - Promote healthy sleep habits for occupations with shorter sleep duration or low physical activity.
-   - Expected outcomes: improved employee productivity, mental health, and organizational efficiency.
+1. Implement Targeted Stress Management Programs
+   - Focus on high-risk occupations identified in the data (nurses, salespeople).
+   - Offer scalable programs such as mindfulness sessions, yoga classes, and access to counseling.
+   - Expected Impact: Reduce median stress levels by ~15–20%, potentially increasing sleep quality by 1–2 points.
+2. Sleep Education & Health Campaigns
+   - Launch initiatives to promote adequate sleep and healthy routines, especially for employees with shorter sleep duration (<6.5 hours).
+   - Include practical tips, workshops, and digital reminders for better sleep hygiene.
+   - Expected Outcomes: Improve employee productivity, reduce fatigue-related errors, and enhance mental health metrics.
+3. Monitor Lifestyle Metrics & Evaluate Program Effectiveness
+   - Use the predictive model to continuously track high-risk.
+   - Measure program impact on stress, sleep quality, and productivity every quarter.
+   - Reality Check: Programs should start with 1–2 high-stress departments before scaling company-wide, ensuring feasibility and resource optimization.
+4. Integrate HR Analytics into Organizational Planning
+   - Embed sleep quality and stress monitoring into HR dashboards for continuous insight.
+   - Use data to inform staffing schedules, workload distribution, and wellness budget allocation.
 
 ## Conclusion
-- Sleep quality significantly differs across occupations.
-- Stress is the most influential factor negatively impacting sleep quality.
-- Multiple linear regression predicted sleep quality with ~88.5% accuracy.
-- Results provide actionable insights for occupation-specific wellness and stress management programs.
+- Sleep quality differs significantly across occupations; nurses and sales roles are most affected.
+- Stress is the primary negative driver, and targeted interventions can meaningfully improve employee sleep.
+- Predictive modeling identifies employees at risk with ~88% accuracy, allowing proactive measures.
+- Actionable insights support occupation-specific wellness programs, stress management initiatives, and HR strategy planning.
+- Implementing these recommendations can lead to measurable improvements in employee well-being, productivity, and organizational efficiency.
 
-## Installation & Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/gkim63/capstone_project_sleep_quality.git
-2. Open in VS Code
-  - Open the project folder in Visual Studio Code.
-  - Open the analysis.ipynb file to explore and run the analysis.
-  - Make sure your Python interpreter is properly set.
-3. Install dependencies
-  - Run the following command in the terminal to install required libraries:
-    ```bash
-    pip install -r requirements.txt
-4. Run the notebook
-   - Use VS Code’s Jupyter extension to run cells interactively, or Launch Jupyter Lab from the terminal:
-     ```bash
-     jupyter lab
 
 
