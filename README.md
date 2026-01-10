@@ -13,7 +13,7 @@ The objective was not to evaluate individual employees, but to identify occupati
 - Provide actionable, organization-level recommendations to improve employee well-being
 
 ## Question 1
-![Bar plots](./chart pictures/average_sleep_quality.png)
+![Bar plots](./chart_pictures/average_sleep_quality.png)
 | Category             | Details                                                                                                                                  |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | **Question 1**       | Which occupations have the highest and lowest average sleep quality?                                                                     |
@@ -22,7 +22,7 @@ The objective was not to evaluate individual employees, but to identify occupati
 | **Result**           | **Nurses** exhibit the lowest sleep quality, while **engineers** show the highest sleep quality among all occupational                   |
 | **Interpretation**   | - High-stress, shift-based roles such as nursing are associated with poorer sleep outcomes<br> - Roles with more stable schedules and lower physical or emotional strain, such as engineering, demonstrate better sleep quality<br> - These findings indicate that sleep-related interventions should be prioritized by occupation, rather than applied uniformly across the organization |
 ## Question 2
-![Scatter Plots](./scatter_plots.png)
+![Scatter Plots](./chart_pictures/scatter_plots.png)
 | Category             | Details                                                                           |
 | -------------------- | --------------------------------------------------------------------------------- |
 | **Question 2**       | Which lifestyle factor has the strongest influence on sleep quality?              |
@@ -32,7 +32,7 @@ The objective was not to evaluate individual employees, but to identify occupati
 | **Interpretation**   | - Longer sleep duration generally corresponds to better sleep quality, reinforcing the importance of adequate rest<br> - Physical activity shows a minimal impact compared to stress and sleep duration, suggesting targeted wellness programs should prioritize stress management and sleep hygiene over general activity interventions<br> - These insights support occupation-specific wellness initiatives to improve overall employee well-being |
 
 ## Question 3
-![Line Chart](./model_predict.png)
+![Line Chart](./chart_pictures/model_predict.png)
 
 | Category             | Details                                                                    |
 | -------------------- | -------------------------------------------------------------------------- |
