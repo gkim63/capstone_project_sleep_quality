@@ -1,4 +1,4 @@
-# capstone_project_sleep_quality
+# Capstone Project: Sleep Quality Analysis
 
 ### This project was conducted to support organizational decision-making and employee well-being initiatives, rather than focusing on individual-level outcomes.
 
@@ -36,11 +36,11 @@ The objective was not to evaluate individual employees, but to identify occupati
 
 | Category             | Details                                                                    |
 | -------------------- | -------------------------------------------------------------------------- |
-| **Question 3**       | Which employee are predicted to be at risk of poor sleep quality?          |
+| **Question 3**       | Which employees are predicted to be at risk of poor sleep quality?          |
 | **Statistical Test** | Multiple Linear Regression                                                 |
 | **Key Metrics**      | R² = **0.886**, MSE = **0.147**                                            |
 | **Result**           | Model demonstrates high predictive performance                             |
-| **Interpretation**   | - Stress, sleep duration, and physical activity together explain a large portion of the variance in sleep quality (~88.6%), confirming that employee lifestyle factors are strong predictors of sleep outcomes<br> - Among these, stress level is the most influential factor, with higher stress strongly reducing predicted sleep quality<br> - Overall, this predictive modeling approach demonstrates how quantitative analysis can be translated into actionable HR strategies, moving beyond descriptive statistics toward data-driven workforce well-being management|
+| **Interpretation**   | - Stress, sleep duration, and physical activity together explain a large portion of the variance in sleep quality (~88%), confirming that employee lifestyle factors are strong predictors of sleep outcomes<br> - Among these, stress level is the most influential factor, with higher stress strongly reducing predicted sleep quality<br> - Overall, this predictive modeling approach illustrates how quantitative analysis can be translated into actionable HR strategies, moving beyond descriptive statistics to data-driven workforce well-being management.|
 
 
 ## ⭐ Actionable Insights
