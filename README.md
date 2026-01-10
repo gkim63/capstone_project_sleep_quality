@@ -17,11 +17,12 @@ The objective was not to evaluate individual employees, but to identify **occupa
 ![Bar plots](./chart_pictures/median_sleep_quality.png)
 | Category             | Details                                                                                                                                  |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| **Question 1**       | Which occupations have the **highest and lowest average sleep quality**?                                                                 |
-| **Statistical Test** | One-way Analysis of Variance (ANOVA)                                                                                                     |
-| **Key Metrics**      | F = **41.65**, p < **0.001**                                                                                                             |
-| **Result**           | **Nurses** exhibit the lowest sleep quality, while **engineers** show the highest sleep quality among all occupational                   |
-| **Interpretation**   | - High-stress, shift-based roles such as **nursing** are associated with poorer sleep outcomes<br> - Roles with more stable schedules and lower physical or emotional strain, such as **engineering**, demonstrate better sleep quality<br> - These findings indicate that **sleep-related interventions** should be prioritized by occupation, rather than applied uniformly across the organization |
+| **Question 1**       | Which occupations have the **highest and lowest median sleep quality**? |
+| **Statistical Test** | One-way Analysis of Variance (ANOVA) |
+| **Key Metrics**      | F = **41.65**, p < **0.001** |
+| **Result**           | **Nurses** and **Salespersons** exhibit the lowest sleep quality, while **Engineers** show the highest sleep quality among all occupations |
+| **Interpretation**   | - High-stress, shift-based roles such as **nursing** and **sales** are associated with poorer sleep outcomes<br> - Roles with more stable schedules and lower physical or emotional strain, such as **engineering**, demonstrate better sleep quality<br> - These findings indicate that **sleep-related interventions** should be prioritized by occupation, rather than applied uniformly across the organization |
+
 ## Question 2
 ![Scatter Plots](./chart_pictures/scatter_plots.png)
 | Category             | Details                                                                           |
