@@ -32,6 +32,8 @@ The objective was not to evaluate individual employees, but to identify occupati
 | **Interpretation**   | - Longer sleep duration generally corresponds to better sleep quality, reinforcing the importance of adequate rest<br> - Physical activity shows a minimal impact compared to stress and sleep duration, suggesting targeted wellness programs should prioritize stress management and sleep hygiene over general activity interventions<br> - These insights support occupation-specific wellness initiatives to improve overall employee well-being |
 
 ## Question 3
+![Line Chart](./model_predict.png)
+
 | Category             | Details                                                                    |
 | -------------------- | -------------------------------------------------------------------------- |
 | **Question 3**       | Which employee are predicted to be at risk of poor sleep quality?          |
