@@ -14,7 +14,7 @@ The objective was not to evaluate individual employees, but to identify **occupa
 - **Provide actionable, organization-level recommendations** to improve employee well-being
 
 ## Question 1
-![Bar plots](./chart_pictures/average_sleep_quality.png)
+![Bar plots](./chart_pictures/median_sleep_quality.png)
 | Category             | Details                                                                                                                                  |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | **Question 1**       | Which occupations have the **highest and lowest average sleep quality**?                                                                 |
